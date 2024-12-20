@@ -10,3 +10,4 @@ Structure of the electron as oscilating system(Oscilation energy)--><br />
 -->Atomic rings in biomolecules(Energy of rotating quantum state)--><br />
 -->Protein and DNA(Biofield. Energy storage mechanism and release)--><br />
 -->Brain(Information Field. Energy storage for memory).
+https://www.youtube.com/watch?v=w1h3LAdYkMM
