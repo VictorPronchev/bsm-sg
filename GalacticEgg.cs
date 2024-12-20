@@ -30,7 +30,7 @@ public class GalacticEgg : MonoBehaviour
             // Създаване на частица
             GameObject particle = Instantiate(particlePrefab, Random.onUnitSphere * radius, Quaternion.identity);
             particle.transform.localScale *= 0.03f; // Намалете размера на частиците
-            particle.transform.SetParent(transform); // Групирайте частиците от двата!!!
+            particle.transform.SetParent(transform); // Групирайте частиците от двата вида лефтхенден и райтхендед!!!
             particles.Add(particle);
         }
     }
