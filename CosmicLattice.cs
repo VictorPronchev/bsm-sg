@@ -4,17 +4,17 @@ using UnityEngine;
 public class CosmicLattice : MonoBehaviour
 {
     [Header("Node and Connection Prefabs")]
-    public GameObject CLNode; // Prefab for lattice nodes (e.g., a sphere)
-    public GameObject CLConn; // Prefab for lattice connections (e.g., a cylinder)
+    public GameObject CLNode; // Префаб за нодовете на решетката (e.g., a sphere)
+    public GameObject CLConn; // Префаб за връзките на решетката (e.g., a cylinder)
 
     [Header("Lattice Settings")]
-    public int gridSize = 5; // Size of the lattice grid
-    public float spacing = 2.0f; // Spacing between nodes
+    public int gridSize = 5; // Размер на грида на решетка
+    public float spacing = 2.0f; // Разстояние между нодовете на решетката
     public bool useHexagonalPattern = true;
 
     [Header("Physics Settings")]
-    public float springForce = 10f; // Force of the spring
-    public float damping = 1f; // Damping to reduce oscillations
+    public float springForce = 10f; // Сили на Хуук/пружина
+    public float damping = 1f; // Редуциране на осцилациите
 
     [Header("Offsets for Odd Layers")]
     public float xOffsetOdd = 0f; // Хоризонтален офсет по X за нечетни слоеве
@@ -23,14 +23,14 @@ public class CosmicLattice : MonoBehaviour
     public float yOffsetEven = 0f; // Вертикален офсет за четни слоеве
 
     [Header("Vibration Settings")]
-    public float vibrationAmplitude = 0.2f; // Amplitude of node vibration
-    public float vibrationSpeed = 2.0f; // Speed of vibration
+    public float vibrationAmplitude = 0.2f; // Амплитуда на вибрацията на нодовете
+    public float vibrationSpeed = 2.0f; // Скорост на вибрациите
 
     [Header("Energy Flow Settings")]
-    public float energyPropagationSpeed = 1.0f; // Speed of energy propagation
+    public float energyPropagationSpeed = 1.0f; // Скорост на разпространението на енергията
 
-    private GameObject[,,] nodes; // 3D array to store nodes
-    private List<GameObject> allNodes = new List<GameObject>(); // Flat list for easy access
+    private GameObject[,,] nodes; // 3D масив с нодовете
+    private List<GameObject> allNodes = new List<GameObject>(); // Flat list за по-бърз достъп
 
     void Start()
     {
