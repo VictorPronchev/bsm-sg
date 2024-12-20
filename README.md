@@ -1,4 +1,4 @@
-Evolution is a computer generated simulation of the matter-energy timeline since the creation of our galaxy.<br />
+BSM-SG is a computer generated simulation of the matter-energy timeline since the creation of our galaxy according to the Basic Structures of Matter - Super Gravitation Theorie from Stoyan Sarg.<br />
 Phases of creation of visible matter:<br />
 Superdense matter in massive blackhole in the galactic center(Condensed form of cosmic energy)--><br />
 -->Hidden phases of galactic evolution- crystallization of elementary particles--><br />
